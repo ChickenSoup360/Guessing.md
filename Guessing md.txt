@@ -1,4 +1,7 @@
+```mermaid
 flowchart TD
+Start([Start]) --> End([End])
+```
     Start([Start]) --> GenerateNumber[Generate A Random Number]
     GenerateNumber --> UserGuess[User Inputs Guess]
     UserInput --> UserGuess{Is the guess correct?}
